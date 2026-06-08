@@ -631,6 +631,7 @@ ul {
   margin-bottom: var(--space-xl);
   display: -webkit-box;
   -webkit-line-clamp: 3;
+  line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
@@ -1369,12 +1370,6 @@ ul {
 }
 
 .footer__copy a:hover { color: var(--color-accent); }
-
-/* ─── TOAST CONTAINER ────────────────────────────────────── */
-#toast-container { }
-
-/* ─── GLOBAL LOADER ──────────────────────────────────────── */
-#global-loader { }
 
 /* ─── RESPONSIVE ─────────────────────────────────────────── */
 @media (max-width: 1024px) {
